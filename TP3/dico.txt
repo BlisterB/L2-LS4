@@ -1,0 +1,2 @@
+mot2:trad5,trad6,trad10,trad11,trad12
+mot1:trad1,trad2,trad3,trad4

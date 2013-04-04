@@ -1,0 +1,13 @@
+#!/usr/bin/env python3.3
+
+
+def main() :
+    #Liste des entiers pairs entre 0 et 10
+    l = [i for i in range(1, 10) if i%2==0]
+    print(l)
+
+    #Sous-liste des éléments de rang pair d'une liste donnée
+    
+
+if __name__ == "__main__" :
+    main()

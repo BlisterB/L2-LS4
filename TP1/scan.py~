@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+
+nombre = input("Donnez moi un nombre")
+print("Le nombre est " + nombre)

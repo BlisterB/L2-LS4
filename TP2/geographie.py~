@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+import sys
+
+def fileToDict(path) :
+    try :
+        f = open(path, "r")
+        for string in f :
+            tab = string.split(",")
+            assert len(tab) == 2
+            dico[tab[0]] = tab[1]
+        f.close
+        return dico
+    except IOError :
+        print("Le fichier n'existe pas")
+    except AssertionError :
+        print("Toutes les lignes du tableau doivent être de la forme \"pays, capitale\"")
+
+def quizzCity(city) :
+    for i in dict :
+        print(i);
+
+def quizzRandom() :
+    pass
+
+if __name__ == "__main__" :
+    dico= dict()
+    dico = fileToDict("capitales.txt")
+    commande = sys.argv
+    if len(commande)>1 :
+        if commande[1] == "-v" :
+            if len(commande) == 3 :
+                quizzCity(commande[2])
+        elif commande[1] == "-n" :
+            quizzRandom(commande[2])
+    else :
+        print("La fonction doit etre appelée avec l'option -v ville ou l'option -n")

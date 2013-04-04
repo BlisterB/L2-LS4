@@ -1,0 +1,3 @@
+Manu,Abelha,Herblay,Ambassadeur,15
+Alistar,Denarmack,Namasta,Ribembelle,23
+Teemo,Aiclerheur,Demacia,Carai,53

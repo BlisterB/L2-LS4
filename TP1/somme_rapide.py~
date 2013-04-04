@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+somme = 0
+
+for i in range(101) :
+    somme += i

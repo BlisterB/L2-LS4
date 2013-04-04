@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+def inversion() :
+    phrase = input("Veuillez enter une phrase : ")
+    liste = phrase.split(" ");
+    liste.reverse()
+    return liste
+
+if __name__ == "__main__" :
+    print(inversion())
