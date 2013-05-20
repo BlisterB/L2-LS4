@@ -15,7 +15,7 @@ def palyndrome(phrase) :
     import string
     for c in phrase :
         if c in  string.punctuation :
-            phrase = phrase.replace(c, "")
+            phrase = phrase.replace(c, "") #On supprimer la ponctuation
     tableauDeMot = phrase.split(" ")
     l = list()
     for mot in tableauDeMot :
