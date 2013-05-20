@@ -2,7 +2,7 @@
 
 def inversion() :
     phrase = input("Veuillez entrer une phrase :")
-    liste = sentence.split(" ")
+    liste = phrase.split(" ")
     liste.reverse()
     return liste
 
