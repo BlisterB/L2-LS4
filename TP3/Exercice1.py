@@ -24,7 +24,7 @@ def palyndrome(phrase) :
     return l
 
 def inclu(liste1, liste2) :
-    return str(liste1)[1:-1] in str(liste2)[1:-1]
+    return liste1[1:-1] in liste2[1:-1]
             
 
 if __name__ == "__main__" :
